@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DODO:RECYCLE</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/quiz.css">
+  <script src="./js/jquery-1.12.4.min.js"></script>
+  <script type="text/javascript" src="./js/jquery.jrumble.1.3.min.js"></script>
+  <script src="./js/function.js"></script>
+</head>
+<body>
+  <div id="wrap">
+    <header>
+      <h1 class="time">09:41</h1>
+      <nav class="tele">
+        <ul>
+          <li><img src="./images/CellularConnection.png" alt="Cellular"></li>
+          <li><img src="./images/Wifi.png" alt="Wifi"></li>
+          <li><img src="./images/battery.png" alt="Battery"></li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <h2 class="title">MY POINT</h2>
+      <p class="point">0/1000 Point</p>
+      <div class="box">
+        <div class="circle">0</div>
+        <a href="#">0 point</a>
+      </div>
+      <article>
+        <h3>Today's Mission</h3>
+        <div class="attend">
+          <a href="#" class="btn_attend">
+            <img src="./images/calendar.png" alt="Daily Attendance">
+            <span>Daily Attendance</span>
+          </a>
+        </div>
+        <div class="quiz">
+          <a href="#">
+            <img src="./images/quiz.png" alt="Today's Quiz">
+            <span>Today's Quiz</span>
+          </a>
+        </div>
+        <h3>Point Activities</h3>
+        <div class="gain">
+          <a href="#">
+            <img src="./images/gain.png" alt="Today's Quiz">
+            <span>Gain Points</span>
+          </a>
+        </div>
+        <div class="redeem">
+          <a href="#">
+            <img src="./images/redeem.png" alt="Today's Quiz">
+            <span>Redeem Points</span>
+          </a>
+        </div>
+        <div class="t-box">
+          투명박스
+        </div>
+      </article>
+     
+    </section>
+    <!-- 팝업창 -->
+    <div class="popup">
+      <div class="attend_popup">
+        <p>Daily Attendance
+          <a href="#">
+            <img src="./images/questionmark.png" alt="#">
+          </a>
+        </p>
+        <div class="guide">
+          <img src="./images/questionmarkgray.png" alt="#">
+          <p>
+            <strong>Guidance:</strong>
+            Every day, You can get 100 points.<br />
+            If you attend for a week everyday,<br /> you
+            can get additional points.
+          </p>
+        </div>
+        <div class="check">
+          <a href="#">Attendance check</a>
+        </div>
+        <div class="complete">
+          <a href="#">Complete</a>
+        </div>
+      </div>
+    </div>
+    <div class="popup_quiz">
+      <div class="popup_quiz_inner">
+        <p>Today's Quiz</p>
+        <img src="./images/banana.png" alt="#">
+        <p class="question">
+          Q. Banana peels are
+        </p>
+        <div class="answer_a right">
+          <a href="#">
+            <span>A</span>
+            <span>Food Waste</span>
+          </a>
+        </div>
+        <div class="answer_b">
+          <a href="#">
+            <span>B</span>
+            <span>Recyclable</span>
+          </a>
+        </div>
+        <div class="answer_c">
+          <a href="#">
+            <span>C</span>
+            <span>General Waste</span>
+          </a>
+        </div>
+        <span class="close">
+          <a href="#"><img src="./images/xmark.png" alt="#"></a>
+        </span>
+        <div class="getPoint">
+          <a href="#">
+            100 Points
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="gain_point">
+      <div class="gain_point_inner">
+        <p>Gain Points</p>
+        <div class="subject subject1">
+          <a href="#">
+            <span>Recyle Photo Challenge</span>
+            <img src="./images/challenge.png" alt="Recycle Photo Challenge">
+          </a>
+        </div>
+        <div class="subject subject2">
+          <a href="#">
+            <span>Bring Your Own Tumbler</span>
+            <img src="./images/tumbler.png" alt="Bring Your Own Tumbler">
+          </a>
+        </div>
+        <div class="subject subject3">
+          <a href="#">
+            <span>Share With Your Friends</span>
+            <img src="./images/share.png" alt="Share With Your Friends">
+          </a>
+        </div>
+        <div class="close">
+          <a href="#">
+            <img src="./images/xmark.png" alt="#">
+          </a>
+        </div>
+      </div>
+      <div class="challenge">
+        <div class="dropdown">
+          <ul class="dropdown_tit">
+            <li><a href="#">Recycle Photo Challenge
+                <img src="./images/ic_arrow_dropdown.png" alt="#">
+              </a></li>
+            <ol class="dropdown_list">
+              <li><a href="#">Bring Your Own Tumbler</a></li>
+              <li><a href="#">Share Width Your Friends</a></li>
+            </ol>
+          </ul>
+        </div>
+        <div class="chal_sub">
+          <p>
+            <strong>This Month Challenge:</strong> <br />
+            Ride a Bicycle
+          </p>
+          <p class="on ">
+            <strong>This Month Challenge:</strong> <br />
+            Use A Eco-friendly Bags
+          </p>
+          <p>
+            <strong>This Month Challenge:</strong> <br />
+            Zero Plastics Campaign
+          </p>
+          <p>
+            <strong>This Month Challenge:</strong> <br />
+            No Plastic straw Campaign
+          </p>
+        </div>
+        <div class="calendarbox">
+          <div class="cbox-wrapper">
+            <div class="cbox-inner">
+              <div class="cbox cbox1">1</div>
+              <div class="cbox cbox2">
+                <a href="#">
+                  <img src="./images/september.png" alt="september">
+                </a>
+                <p>September</p>
+                <div class="photobox">
+                  <a href="#"><img src="./images/box2_image1.png" alt="#"></a>
+                  <a href="#"><img src="./images/box2_image2.png" alt="#"></a>
+                  <a href="#"><img src="./images/box2_image3.png" alt="#"></a>
+                  <a href="#"><img src="./images/box2_image4.png" alt="#"></a>
+                  <a href="#"><img src="./images/box2_image5.png" alt="#"></a>
+                  <a href="#"><img src="./images/box2_image6.png" alt="#"></a>
+                  <a href="#"><img src="./images/box2_image7.png" alt="#"></a>
+                  <a href="#"><img src="./images/box2_image8.png" alt="#"></a>
+                  <a href="#"><img src="./images/box2_image9.png" alt="#"></a>
+                </div>
+                <div class="heart">
+                  <a href="#">1</a>
+                  <a href="#">2</a>
+                  <a href="#">3</a>
+                  <a href="#">4</a>
+                  <a href="#">5</a>
+                  <a href="#">6</a>
+                  <a href="#">7</a>
+                  <a href="#">8</a>
+                  <a href="#">9</a>
+                </div>
+                <ul class="box_indicator clearfix">
+                  <li class="active"><a href="#">1</a></li>
+                  <li><a href="#">2</a></li>
+                  <li><a href="#">3</a></li>
+                  <li><a href="#">4</a></li>
+                </ul>
+              </div>
+              <div class="cbox cbox3">
+                <a href="#">
+                  <img src="./images/october.png" alt="october">
+                </a>
+                <p>October</p>
+                <div class="photobox">
+                  <a href="#"><img src="./images/image1.png" alt="#"></a>
+                  <a href="#"><img src="./images/image2.png" alt="#"></a>
+                  <a href="#"><img src="./images/image3.png" alt="#"></a>
+                  <a href="#"><img src="./images/image4.png" alt="#"></a>
+                  <a href="#"><img src="./images/image5.png" alt="#"></a>
+                  <a href="#"><img src="./images/image6.png" alt="#"></a>
+                  <a href="#"><img src="./images/image7.png" alt="#"></a>
+                  <a href="#"><img src="./images/image8.png" alt="#"></a>
+                  <a href="#"><img src="./images/image9.png" alt="#"></a>
+                </div>
+                <div class="heart">
+                  <a href="#">1</a>
+                  <a href="#">2</a>
+                  <a href="#">3</a>
+                  <a href="#">4</a>
+                  <a href="#">5</a>
+                  <a href="#">6</a>
+                  <a href="#">7</a>
+                  <a href="#">8</a>
+                  <a href="#">9</a>
+                </div>
+                <ul class="box_indicator clearfix">
+                  <li class="active"><a href="#">1</a></li>
+                  <li><a href="#">2</a></li>
+                  <li><a href="#">3</a></li>
+                  <li><a href="#">4</a></li>
+                </ul>
+              </div>
+              <div class="cbox cbox4">
+                <a href="#">
+                  <img src="./images/november.png" alt="november">
+                </a>
+                <p>November</p>
+                <div class="photobox">
+                  <a href="#"><img src="./images/box3_image1.png" alt="#"></a>
+                  <a href="#"><img src="./images/box3_image2.png" alt="#"></a>
+                  <a href="#"><img src="./images/box3_image3.png" alt="#"></a>
+                  <a href="#"><img src="./images/box3_image4.png" alt="#"></a>
+                  <a href="#"><img src="./images/box3_image5.png" alt="#"></a>
+                  <a href="#"><img src="./images/box3_image6.png" alt="#"></a>
+                  <a href="#"><img src="./images/box3_image7.png" alt="#"></a>
+                  <a href="#"><img src="./images/box3_image8.png" alt="#"></a>
+                  <a href="#"><img src="./images/box3_image9.png" alt="#"></a>
+                </div>
+                <div class="heart">
+                  <a href="#">1</a>
+                  <a href="#">2</a>
+                  <a href="#">3</a>
+                  <a href="#">4</a>
+                  <a href="#">5</a>
+                  <a href="#">6</a>
+                  <a href="#">7</a>
+                  <a href="#">8</a>
+                  <a href="#">9</a>
+                </div>
+                <ul class="box_indicator clearfix">
+                  <li class="active"><a href="#">1</a></li>
+                  <li><a href="#">2</a></li>
+                  <li><a href="#">3</a></li>
+                  <li><a href="#">4</a></li>
+                </ul>
+              </div>
+              <div class="cbox cbox4">
+                <a href="#">
+                  <img src="./images/December.png" alt="December">
+                </a>
+                <p>December</p>
+                <div class="photobox">
+                  <a href="#"><img src="./images/box4_image1.png" alt="#"></a>
+                  <a href="#"><img src="./images/box4_image2.png" alt="#"></a>
+                  <a href="#"><img src="./images/box4_image3.png" alt="#"></a>
+                  <a href="#"><img src="./images/box4_image4.png" alt="#"></a>
+                  <a href="#"><img src="./images/box4_image5.png" alt="#"></a>
+                  <a href="#"><img src="./images/box4_image6.png" alt="#"></a>
+                  <a href="#"><img src="./images/box4_image7.png" alt="#"></a>
+                  <a href="#"><img src="./images/box4_image8.png" alt="#"></a>
+                  <a href="#"><img src="./images/box4_image9.png" alt="#"></a>
+                </div>
+
+                <div class="heart">
+                  <a href="#">1</a>
+                  <a href="#">2</a>
+                  <a href="#">3</a>
+                  <a href="#">4</a>
+                  <a href="#">5</a>
+                  <a href="#">6</a>
+                  <a href="#">7</a>
+                  <a href="#">8</a>
+                  <a href="#">9</a>
+                </div>
+                <ul class="box_indicator clearfix">
+                  <li class="active"><a href="#">1</a></li>
+                  <li><a href="#">2</a></li>
+                  <li><a href="#">3</a></li>
+                  <li><a href="#">4</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="challenge_wrt">
+          <a href="#">Challenge!</a>
+        </div>
+        <div class="challenge_wrt done">
+          <a href="#">Finish Challenge</a>
+        </div>
+        <div class="prev">
+          <a href="#">prev</a>
+        </div>
+        <div class="next">
+          <a href="#">next</a>
+        </div>
+      </div>
+      <div class="tumbler">
+        <div class="tumbler_inner">
+          <div class="tlr_dropdown">
+            <ul class="tlr_dropdown_tit">
+              <li><a href="#">Bring Your Own Tumbler
+                  <img src="./images/ic_arrow_dropdown.png" alt="#">
+                </a></li>
+              <ol class="tlr_dropdown_list">
+                <li><a href="#">Share Width Your Friends</a></li>
+                <li><a href="#">Recycle Photo Challenge</a></li>
+              </ol>
+            </ul>
+          </div>
+          <div class="tlr_sub">
+            <p>
+              If you use your own tumbler at our partnership cafe,<br />
+              you can get one stamps. Nine stamps are 1000 points.
+            </p>
+          </div>
+          <div class="calendarbox">
+            <div class="cbox-wrapper">
+              <div class="cbox-inner">
+                <div class="cbox cbox1">1</div>
+                <div class="cbox cbox2">
+                  <a href="#">
+                    <img src="./images/september.png" alt="september">
+                  </a>
+                  <p>September</p>
+                  <div class="photobox">
+                    <a href="#"><img src="./images/stamp9.png" alt="#"></a>
+                    <a href="#"><img src="./images/stamp9.png" alt="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                  </div>
+                  <ul class="box_indicator clearfix">
+                    <li class="active"><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                  </ul>
+                </div>
+                <div class="cbox cbox3">
+                  <a href="#">
+                    <img src="./images/october.png" alt="october">
+                  </a>
+                  <p>October</p>
+                  <div class="photobox photobox10">
+                    <a href="#"><img src="./images/stamp10.png" alt="#"></a>
+                    <a href="#"><img src="./images/stamp10.png" alt="#"></a>
+                    <a href="#"><img src="./images/stamp10.png" alt="#"></a>
+                    <a href="#"><img src="./images/stamp10.png" alt="#"></a>
+                    <a href="#"><img src="./images/stamp10.png" alt="#"></a>
+                    <a href="#"><img src="./images/stamp10.png" alt="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                  </div>
+                  <ul class="box_indicator clearfix">
+                    <li class="active"><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                  </ul>
+                </div>
+                <div class="cbox cbox4">
+                  <a href="#">
+                    <img src="./images/november.png" alt="november">
+                  </a>
+                  <p>November</p>
+                  <div class="photobox">
+                    <a href="#"><img src="./images/stamp11.png" alt="#"></a>
+                    <a href="#"><img src="./images/stamp11.png" alt="#"></a>
+                    <a href="#"><img src="./images/stamp11.png" alt="#"></a>
+                    <a href="#"><img src="./images/stamp11.png" alt="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                  </div>
+                  <ul class="box_indicator clearfix">
+                    <li class="active"><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                  </ul>
+                </div>
+                <div class="cbox cbox4">
+                  <a href="#">
+                    <img src="./images/December.png" alt="December">
+                  </a>
+                  <p>December</p>
+                  <div class="photobox">
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                  </div>
+                  <ul class="box_indicator clearfix">
+                    <li class="active"><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tbl_prev">
+            <a href="#">prev</a>
+          </div>
+          <div class="tbl_next">
+            <a href="#">next</a>
+          </div>
+        </div>
+        <div class="getstamp">
+          <a href="#">Get Stamp!</a>
+        </div>
+        <div class="getstamp complete">
+          <a href="#">Complete</a>
+        </div>
+      </div>
+      <div class="share">
+        <div class="share_inner">
+          <div class="shr_dropdown">
+            <ul class="shr_dropdown_tit">
+              <li><a href="#">Share Width Your Friends
+                  <img src="./images/ic_arrow_dropdown.png" alt="#">
+                </a></li>
+              <ol class="shr_dropdown_list">
+                <li><a href="#">Recycle Photo Challenge</a></li>
+                <li><a href="#">Bring Your Own Tumbler</a></li>
+              </ol>
+            </ul>
+          </div>
+          <div class="shr_frame">
+            <p class="person">0/10</p>
+            <p class="des">
+              If you share this app with your friends,<br />
+              you can get 3,000 points per 10 person.
+            </p>
+          </div>
+          <div class="shr_search">
+            <a href="#" class="search_s">
+              <img src="./images/ic_search.png" alt="#">
+              <span>Search</span>
+            </a>
+            <div class="shr_contact">
+              <div class="shr_search_inner">
+                <div class="shr_div">
+                  <div class="contact_a">
+                    A
+                  </div>
+                  <a href="#">Alex <span>check</span></a>
+                  <a href="#">Amelie<span>check</span></a>
+                  <a href="#">Amanda<span>check</span></a>
+                  <a href="#">Ashely<span>check</span></a>
+                </div>
+                <div class="shr_div">
+                  <div class="contact_b">
+                    B
+                  </div>
+                  <a href="#">Bailey<span>check</span></a>
+                  <a href="#">Beckett<span>check</span></a>
+                  <a href="#">Bella<span>check</span></a>
+                  <a href="#">Bianca<span>check</span></a>
+                  <a href="#">Bobbi<span>check</span></a>
+                </div>
+                <div class="shr_div">
+                  <div class="contact_c">
+                    C
+                  </div>
+                  <a href="#">Captain<span>check</span></a>
+                  <a href="#">Cara<span>check</span></a>
+                  <a href="#">Carol<span>check</span></a>
+                  <a href="#">Cecil<span>check</span></a>
+                  <a href="#">Champ<span>check</span></a>
+                </div>
+                <div class="shr_div">
+                  <div class="contact_d">
+                    D
+                  </div>
+                  <a href="#">Dave<span>check</span></a>
+                  <a href="#">Diallo<span>check</span></a>
+                  <a href="#">Dick<span>check</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="shr_btn">
+            <a href="#">Share</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="wrt_newpost">
+      <div class="wrt_inner">
+        <p>New Post</p>
+        <span class="wrt_clse">
+          <a href="#"><img src="./images/xmark.png" alt="#"></a>
+        </span>
+        <div class="wrt_photo">
+          <a href="#">
+            <img src="./images/camera.png" alt="#">
+            <span>0 / 10</span>
+          </a>
+        </div>
+        <div class="wrt_tit">
+          Title
+        </div>
+        <div class="wrt_des">
+          Description
+        </div>
+        <div class="wrt_done">
+          <a href="#">
+            Done
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="redeem_pop">
+      <div class="redeem_pop_inner">
+        <p>Redeem Points</p>
+        <span class="rd_clse">
+          <a href="#"><img src="./images/xmark.png" alt="#"></a>
+        </span>
+        <div class="rd_mnu">
+          <div class="rd_mnu_inner">
+            <a href="#"><img src="./images/food1.png" alt=""><span>4,000 Points</span></a>
+            <a href="#"><img src="./images/food2.png" alt=""><span>1,500 Points</span></a>
+            <a href="#"><img src="./images/food3.png" alt=""><span>4,800 Points </span></a>
+            <a href="#"><img src="./images/food4.png" alt=""><span>3,200 Points</span></a>
+            <a href="#"><img src="./images/food5.png" alt=""><span>2,000 Points</span></a>
+            <a href="#"><img src="./images/food6.png" alt=""><span>6,000 Points</span></a>
+            <a href="#"><img src="./images/food7.png" alt=""><span>4,000 Points</span></a>
+            <a href="#"><img src="./images/food8.png" alt=""><span>1,500 Points</span></a>
+            <a href="#"><img src="./images/food9.png" alt=""><span>4,000 Points</span></a>
+            <a href="#"><img src="./images/food10.png" alt=""><span>1,500 Points</span></a>
+            <a href="#"><img src="./images/food11.png" alt=""><span>4,800 Points </span></a>
+            <a href="#"><img src="./images/food12.png" alt=""><span>3,200 Points</span></a>
+            <a href="#"><img src="./images/food13.png" alt=""><span>2,000 Points</span></a>
+            <a href="#"><img src="./images/food14.png" alt=""><span>6,000 Points</span></a>
+            <a href="#"><img src="./images/food15.png" alt=""><span>4,000 Points</span></a>
+            <a href="#"><img src="./images/food16.png" alt=""><span>1,500 Points</span></a>
+          </div>
+        </div>
+      </div>       
+    </div>
+
+    <footer>
+      <ol class="footer_nav">
+        <li><a href="#">search</a></li>
+        <li><a href="#">points</a></li>
+        <li><a href="./home.html">Home</a></li>
+        <li><a href="#">market</a></li>
+        <li><a href="#">user</a></li>
+      </ol>
+      <div class="sec_search">
+        <div class="sec_search_inner">
+          <h1>Search</h1>
+          <div class="sec_search_src"><a href="#"><img src="./images/ic_search.png" alt="#"> <span> Search</span></a></div>
+          <div class="para">
+            <p>Recent Search</p>
+            <div class="src_box">
+              <a href="#" class="src_box">Acrylic <img src="./images/xmark_white.png" alt="#"></a>
+              <a href="#" class="src_box">Photato Skins <img src="./images/xmark_white.png" alt="#"></a>
+              <a href="#" class="src_box">Fruit Seeds <img src="./images/xmark_white.png" alt="#"></a>
+              <a href="#" class="src_box">Chicken Bones <img src="./images/xmark_white.png" alt="#"></a>
+              <a href="#" class="src_box">Tea bags <img src="./images/xmark_white.png" alt="#"></a>
+            </div>
+          </div>
+          <div class="para">
+            <p>Trending</p>
+            <div class="src_line">
+              <a href="#">Chicken Bones</a>
+              <a href="#">Styrofoam</a>
+              <a href="#">Banana Peal</a>
+              <a href="#">Eggshell</a>
+            </div>
+          </div>
+          <div class="para">
+            <p>Best Tip</p>
+            <div class="info_box">
+              <a href="#">
+                <span>Paper Waste</span>
+                <img src="./images/recyclebox1.png" alt="#">
+              </a>
+              <a href="#">
+                <span>Tins/Metals</span>
+                <img src="./images/recyclebox2.png" alt="#">
+              </a>
+              <a href="#">
+                <span>Ceramics/Glass</span>
+                <img src="./images/recyclebox3.png" alt="#">
+              </a>
+              <a href="#">
+                <span>Plastic Waste</span>  
+                <img src="./images/recyclebox4.png" alt="#">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="market">
+        <div class="market_inner">
+          <h1>Sharing Market</h1>
+          <a href="#" class="noti"><img src="./images/ic_notification.png" alt="#"></a>
+          <div class="market_map"><a href="#"><span> Gonghang-daero 45ga-gil</span><img src="./images/ic_place.png" alt="#"> </a></div>
+          <div class="sharing_box">
+            <div class="sharing_box_wrp">
+              <a href="#" class="sharing_stf">
+                <img src="./images/sharing1.png" alt="#">
+                <Strong>Fabric Sofa</Strong>
+                <span>Gangseo-gu, GaYang-dong</span>
+              </a>
+              <a href="#" class="chat"><img src="./images/chatting.png" alt="#"></a>
+            </div>
+            <div class="sharing_box_wrp">
+              <a href="#" class="sharing_stf">
+                <img src="./images/sharing2.png" alt="#">
+                <Strong>Coffee Table</Strong>
+                <span>Gangseo-gu, GaYang-dong</span>
+              </a>
+              <a href="#" class="chat"><img src="./images/chatting.png" alt="#"></a>
+            </div>
+            <div class="sharing_box_wrp">
+              <a href="#" class="sharing_stf">
+                <img src="./images/sharing3.png" alt="#">
+                <Strong>Wood Frame Bed</Strong>
+                <span>Gangseo-gu, GaYang-dong</span>
+              </a>
+              <a href="#" class="chat"><img src="./images/chatting.png" alt="#"></a>
+            </div>
+            <div class="sharing_box_wrp">
+              <a href="#" class="sharing_stf">
+                <img src="./images/sharing4.png" alt="#">
+                <Strong>Book shelf</Strong>
+                <span>Gangseo-gu, GaYang-dong</span>
+              </a>
+              <a href="#" class="chat"><img src="./images/chatting.png" alt="#"></a>
+            </div>
+            <div class="sharing_box_wrp">
+              <a href="#" class="sharing_stf">
+                <img src="./images/sharing5.png" alt="#">
+                <Strong>Wood Table</Strong>
+                <span>Gangseo-gu, GaYang-dong</span>
+              </a>
+              <a href="#" class="chat"><img src="./images/chatting.png" alt="#"></a>
+            </div>
+            <div class="sharing_box_wrp">
+              <a href="#" class="sharing_stf">
+                <img src="./images/sharing6.png" alt="#">
+                <Strong>Rattan Chair</Strong>
+                <span>Gangseo-gu, GaYang-dong</span>
+              </a>
+              <a href="#" class="chat"><img src="./images/chatting.png" alt="#"></a>
+            </div> 
+            <div class="sharing_box_wrp">
+              <a href="#" class="sharing_stf">
+                <img src="./images/sharing7.png" alt="#">
+                <Strong>side Board</Strong>
+                <span>Gangseo-gu, GaYang-dong</span>
+              </a>
+              <a href="#" class="chat"><img src="./images/chatting.png" alt="#"></a>
+            </div>  
+          </div>
+          <div class="sharing_wrt">
+            <a href="#"><img src="./images/wrtic.png" alt="#"></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+</body>
+
+</html>
